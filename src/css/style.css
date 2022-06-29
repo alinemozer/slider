@@ -33,7 +33,7 @@ html {
 }
 
 .container .slider .slide.imagem2 {
-    background: url('../image/slide2.png');
+    background-image: url('../image/slide2.png');
 }
 
 .slide .texto .link.btn-imagem2 {
@@ -41,7 +41,7 @@ html {
 }
 
 .container .slider .slide.imagem3 {
-    background: url('../image/slide3.png');
+    background-image: url('../image/slide3.png');
 }
 
 .slide .texto .link.btn-imagem3 {
@@ -49,7 +49,7 @@ html {
 }
 
 .container .slider .slide.imagem4 {
-    background: url('../image/slide4.png');
+    background-image: url('../image/slide4.png');
 }
 
 .slide .texto .link.btn-imagem4 {
