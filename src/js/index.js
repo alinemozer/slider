@@ -1,7 +1,16 @@
-const setaVoltar = document.getElementById("btn-voltar");
-const setaAvancar = document.getElementById("btn-avancar");
-const imagensSlides = document.getElementsByClassName("slide");
+const setaVoltar = document.getElementById('btn-voltar');
+const setaAvancar = document.getElementById('btn-avancar');
+const imagensSlides = document.getElementsByClassName('slide');
 let slideAtual = 0;
+
+setaAvancar.addEventListener('click', function() {
+    slideAnterior = slideAtual;
+    slideAtual ++;
+
+    mostrarSlide();
+    esconderSlide();
+    desabilitarSeta();
+})
 
 setaVoltar.addEventListener('click', function() {
     slideAnterior = slideAtual;
@@ -11,15 +20,6 @@ setaVoltar.addEventListener('click', function() {
     esconderSlide();
     desabilitarSeta();
 })
-
-setaAvancar.addEventListener('click', function() {
-    slideAnterior = slideAtual;
-    slideAtual ++;
-
-    mostrarSlide();
-    esconderSlide();
-    desabilitarSeta();
-});
 
 function mostrarSlide() {
     imagensSlides[slideAtual].classList.add('mostrar');
