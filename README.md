@@ -2,7 +2,7 @@
 Repositório com exercício 01 do módulo de JS intermediário do curso DevQuest. <br>
 Carrossel de imagens com cards de texto que mudam conforme os slides são alterados.
 
-📝 Neste projeto responsivo, pûde colocar em prática <br>
+📝 Neste projeto responsivo, pude colocar em prática <br>
 os conhecimentos adquiridos no módulo de JS intermediário, <br>
 como buscar, manipular e alterar elementos através de variáveis, funções e métodos.
 
