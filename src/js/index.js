@@ -10,7 +10,7 @@ setaAvancar.addEventListener('click', function() {
     mostrarSlide();
     esconderSlide();
     desabilitarSeta();
-})
+});
 
 setaVoltar.addEventListener('click', function() {
     slideAnterior = slideAtual;
@@ -19,7 +19,7 @@ setaVoltar.addEventListener('click', function() {
     mostrarSlide();
     esconderSlide();
     desabilitarSeta();
-})
+});
 
 function mostrarSlide() {
     imagensSlides[slideAtual].classList.add('mostrar');
@@ -33,7 +33,7 @@ function desabilitarSeta() {
     const primeiroSlide = 0;
     const ultimoSlide = imagensSlides.length -1;
 
-slideAtual === primeiroSlide? setaVoltar.classList.add('opacidade') : 
+slideAtual === primeiroSlide ? setaVoltar.classList.add('opacidade') : 
 setaVoltar.classList.remove('opacidade');
 
 slideAtual === ultimoSlide ? setaAvancar.classList.add('opacidade') : 
